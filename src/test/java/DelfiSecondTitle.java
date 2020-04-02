@@ -13,16 +13,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-//----------------ДОПИЛИТЬ----------------------------
-//    StaleElementReferenceException
-//    try catch modal window
-// if cannot find  comment count element = comment count 0
-// искать article by tagname и потом в нём искать название статьи и комменты
-//------------------------------------------------------
-//final это константа, меняем название на КАПС с андерскорами между словами
-//если список вернулся пустым, значит комментариев 0
-
-
 public class DelfiSecondTitle {
 
 
@@ -112,16 +102,3 @@ public class DelfiSecondTitle {
 ////7. Summ anonymus and registred comments
 ////8. Compare comment count from home page, article page and comment page.
 //
-//
-////Find first article title
-//// WebElement firstArticleTitle = driver.findElement(HOME_PAGE_ARTICLE);
-////Get text and save it
-//// String firstArticleTitleText = firstArticleTitle.getText();
-////Click on first article title
-////  firstArticleTitle.click();
-////Find article title
-////  WebElement articleTitle = driver.findElement(ARTICLE_PAGE_TITLE);
-////Get text and save"
-//// String articleTitleText = articleTitle.getText();
-////Check (compare) both titles
-////  Assertions.assertEquals(firstArticleTitleText, articleTitleText, "Titles are not equals");
