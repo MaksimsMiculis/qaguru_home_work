@@ -81,14 +81,5 @@ public class TVNetArticleTest {
         LOGGER.info("Comment count comment page: " + commentCountCommentPageInt);
 
 
-
-
-
-
-
-//        String commentCount = secondArticle.findElement(ARTICLE_COMMENTS).getText().replaceAll("[^0-9]", "");
-//        go to second article page, get article text, comment and compare with home page
-
-
     }
 }
