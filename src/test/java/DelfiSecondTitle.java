@@ -37,7 +37,7 @@ public class DelfiSecondTitle {
 
     @Test
     public void delfiCompareSecondTitle() {
-        LOGGER.info("Setting up driver path");
+        LOGGER.error("Setting up driver path");
         System.setProperty("webdriver.chrome.driver", "c:/chromedriver.exe");
         LOGGER.info("Opening browser");
         WebDriver driver = new ChromeDriver();
@@ -64,7 +64,6 @@ public class DelfiSecondTitle {
         String secondArticleTitleText = secondArticleTitleElement.getText();
         LOGGER.info("Article title on article's page: " + secondArticleTitleText);
         Assertions.assertEquals(secondArticleTitle, secondArticleTitleText, "Titles are not equals");
-
 
         driver.get("http://www.delfi.lv");
         List<WebElement> commentCount = driver.findElements(COMMENT_COUNT_HOME_PAGE);

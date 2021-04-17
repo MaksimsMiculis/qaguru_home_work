@@ -28,7 +28,7 @@ public class TVNetArticleTest {
     public void tvnetSecondTitle() {
 
         System.setProperty("webdriver.chrome.driver", "c:/chromedriver.exe");
-        LOGGER.info("Opening browser");
+        LOGGER.error("Opening browser");
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://www.tvnet.lv");
