@@ -1,2 +1,4 @@
 new branch file text
 one more row
+and more
+and more
